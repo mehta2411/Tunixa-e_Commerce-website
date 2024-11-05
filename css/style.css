@@ -1,0 +1,1063 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+
+
+header,
+footer,
+section {
+    float: left;
+    width: 100%;
+}
+
+.container {
+    width: 1380px;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    padding: 0 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 111;
+}
+
+header .col-20 {
+    float: left;
+    width: 20%;
+}
+
+header .col-60 {
+    float: left;
+    width: 60%;
+}
+
+.main-menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-menu .main-link {
+    padding: 20px 20px;
+}
+
+.main-menu .main-link a {
+
+    color: black;
+    text-decoration: none;
+}
+
+.main-link a:hover {
+    opacity: 0.5;
+}
+
+.icons-wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.icons-wrap a {
+    font-size: 21px;
+    color: black;
+    padding: 0 10px;
+}
+
+.icons-wrap a:hover {
+    opacity: 0.5;
+}
+
+.slider-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    max-width: 550px;
+    transform: translate(0, -50%);
+}
+
+.slider-content h1 {
+    font-size: 60px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    line-height: 115px;
+    letter-spacing: 0.6px;
+
+}
+
+.best {
+    margin-left: 25px;
+}
+
+.btn {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    background-color: #627563;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.button a:hover {
+    background-color: black;
+}
+
+.banner1 {
+    width: 330px;
+    height: 430px;
+    margin-left: 50px;
+
+}
+
+.banner1 img:hover {
+    border: 2px solid chocolate;
+}
+
+.banner2 img:hover {
+    border: 2px solid coral;
+}
+
+.banner2 {
+    width: 445px;
+    height: 623px;
+}
+
+.heading h5 {
+    margin-left: -30px;
+    FONT-FAMILY: "Dancing Script";
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.6px;
+
+}
+
+.heading h2 {
+    font-family: rubik, arial;
+    font-size: 14px;
+    text-align: left;
+    line-height: 21px;
+    letter-spacing: 0.6px;
+    margin-top: 20px;
+}
+
+.heading h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: 0.6px;
+    margin-top: 20px;
+    padding: 15px;
+
+}
+
+section .col-251 {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+
+.product-img img {
+    width: 100%;
+}
+
+.product-img img:hover {
+    border: 2px solid blueviolet;
+}
+
+
+.image-banner {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+
+.mrq {
+    padding: 20px 20px;
+}
+
+.heading h3 {
+
+    font-size: 26px;
+    text-align: center;
+    line-height: 31px;
+    letter-spacing: 0.3px;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.signup {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.email {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+.sub {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    background-color: #627563;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 15px;
+
+}
+
+.sub :hover {
+    background-color: black;
+}
+
+
+.para {
+
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+.form {
+    font-size: 16px;
+    text-align: center;
+    line-height: 14px;
+    letter-spacing: 0.8px;
+}
+
+
+.image-banner img {
+    width: 100%;
+}
+
+.banner img:hover {
+    border: 2px solid black;
+
+}
+
+.panel {
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+footer .col-20 {
+    float: left;
+    width: 20%;
+}
+
+.footer-panel1 {
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    text-align: left;
+    letter-spacing: 0.6px;
+    line-height: 33.4px;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.footer-panel1 .btn {
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+
+}
+
+.sym {
+    justify-content: start;
+}
+
+.contain li {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    letter-spacing: 0.6px;
+    padding: 5px;
+}
+
+.contain li a:hover {
+    text-decoration: underline;
+}
+
+.contain li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.contain h4 {
+
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+}
+
+.connect h4 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+
+.logo-wrap .common p {
+    padding: 10px 40px 0 0px;
+}
+
+.contain .common {
+    padding: 10px 60px 0px 0px;
+}
+
+footer .row {
+    align-items: start;
+
+}
+
+/* contact.html */
+
+
+.homebar {
+
+    display: flex;
+    margin-top: 60px;
+    padding: 10px 15px;
+    text-align: start;
+    background-color: #f5f5f5;
+    margin-left: 60px;
+    width: 90%;
+
+
+}
+
+.home p {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.6px;
+    padding: 0 20px;
+}
+
+.heading2 {
+    text-align: center;
+    font-size: 14px;
+    line-height: 28.8px;
+    letter-spacing: 0.3px;
+    font-family: rubik;
+    margin-top: 10px;
+}
+
+.contact {
+
+    display: flex;
+    margin-top: 30px;
+    text-align: left;
+
+
+}
+
+.info {
+    width: 100%;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+
+}
+
+.col-50 {
+    width: 50%;
+    float: left;
+    padding: 10px 10px;
+}
+
+.col-50 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact input {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.que input {
+    padding: 40px;
+
+}
+
+.button3 {
+
+    text-align: center;
+}
+
+.button3 .btn {
+    margin-top: 20px;
+
+}
+
+.panel {
+    padding: 20px 0;
+}
+
+/* blog */
+.head h1 {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.3px;
+
+}
+
+.blog-img img {
+    width: 100%;
+}
+
+.blog-img img:hover {
+    border: 2px solid lightblue;
+}
+
+.col-33 {
+    width: 33.33%;
+    display: flex;
+    padding: 0 10px;
+}
+
+.blog .row {
+    justify-content: start;
+
+}
+
+/* media queries */
+
+@media (min-width:1600px) and (max-width:1919px) {}
+
+
+@media (min-width:1450px) and (max-width:1599px) {}
+
+
+
+@media (min-width:1350px) and (max-width:1449px) {}
+
+@media (min-width:1280px) and (max-width:1349px) {}
+
+@media (min-width:1121px) and (max-width:1279px) {
+    .container {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .row {
+        display: flex;
+
+    }
+
+    .main-menu {
+        list-style: none;
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+
+    .slider-content h1 {
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: 0.4px;
+    }
+
+    .main-menu .main-link {
+        padding: 15px 15px;
+    }
+
+    .image-containt .row {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+
+
+
+
+
+}
+
+@media (min-width:992px) and (max-width:1120px) {
+
+    .container {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .row {
+        display: flex;
+
+    }
+
+    .main-menu {
+        list-style: none;
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+
+    .slider-content h1 {
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: 0.4px;
+    }
+
+    .main-menu .main-link {
+        padding: 15px 15px;
+    }
+
+    .image-containt .row {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .banner1 {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .banner1 img {
+        width: 100%;
+        height: 135%;
+        object-fit: contain;
+        margin-top: 10px;
+    }
+
+    .banner2 {
+        height: 585px;
+        width: 100%;
+    }
+
+    .banner2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin-top: 10px;
+    }
+
+    .heading h1 {
+        margin-top: 0;
+    }
+
+    section .col-251 {
+        width: 40%;
+    }
+
+    .product-blog .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .deal .row {
+        flex-wrap: nowrap;
+        /* display: inherit; */
+    }
+
+    .image-banner {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .col-251 {
+        width: 40%;
+    }
+}
+
+
+
+
+
+
+    @media (min-width:768px) and (max-width:991px) {
+        .container {
+            width: 98%;
+            margin: 0 auto;
+        }
+
+        .row {
+            display: block;
+
+        }
+
+        header .col-60 {
+            width: 60%;
+            float: left;
+
+        }
+
+        header .col-20 {
+            float: left;
+            width: 20%;
+        }
+
+        .slider-content h1 {
+            font-size: 44px;
+            line-height: 60px;
+            letter-spacing: 0.4px;
+
+        }
+
+        .main-menu .main-link {
+            padding: 10px 20px;
+
+        }
+
+        .icons-wrap {
+            flex-wrap: nowrap;
+        }
+
+        section .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .banner1 {
+            height: 300px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .banner1 img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            margin-top: 10px;
+        }
+
+        .banner2 {
+            height: 400px;
+            width: 100%;
+        }
+
+        .banner2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            margin-top: 10px;
+        }
+
+        .heading h1 {
+            margin-top: 0;
+        }
+
+        section .col-251 {
+            width: 40%;
+        }
+
+        .product-blog .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .deal .row {
+            flex-wrap: nowrap;
+            display: inherit;
+        }
+
+        .image-banner {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .col-251 {
+            width: 40%;
+        }
+
+        .image-containt .row {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+    }
+
+    @media (min-width:480px)and (max-width:767px) {
+        .container {
+            width: 98%;
+            margin: 0 auto;
+        }
+
+        .row {
+            display: block;
+        }
+
+        header .col-60 {
+            width: 50%;
+            float: left;
+            display: none;
+        }
+
+        header .col-20 {
+            float: left;
+            width: 50%;
+        }
+
+        .main-menu {
+            display: none;
+        }
+
+        .icons-wrap a {
+            font-size: 10px;
+
+        }
+
+        .logo-wrap img {
+            width: 50px;
+        }
+
+        .slider-content h1 {
+            font-size: 24px;
+            line-height: 30px;
+            letter-spacing: 0.4px;
+            text-align: center;
+        }
+
+        .slider-content p {
+            display: none;
+        }
+
+        .banner1 {
+            height: 400px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .banner1 img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            margin-top: 10px;
+        }
+
+        .banner2 {
+            height: 400px;
+            width: 100%;
+        }
+
+        .banner2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            margin-top: 10px;
+        }
+
+        .heading h5 {
+            margin-left: 0;
+            font-size: 31px;
+            line-height: 53px;
+            text-align: center;
+        }
+
+        .best {
+            margin-left: 0;
+            text-align: center;
+        }
+
+        .best h2 {
+            text-align: center;
+        }
+
+        .heading h2 {
+            margin-top: 0;
+        }
+
+        .btn {
+            padding: 4px;
+            margin-top: 10px;
+        }
+
+        .heading h1 {
+            font-size: 18px;
+            margin-top: 5px;
+            text-align: center;
+        }
+
+        section .col-251 {
+            width: 50%;
+        }
+
+        .heading h1 {
+            font-size: 23px;
+            margin-top: 5px;
+        }
+
+        section .col-251 {
+            width: 50%;
+        }
+
+        .image-banner {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .signup {
+            padding: 10px;
+        }
+
+        .heading h3 {
+            font-size: 16px;
+            line-height: 0px;
+            margin-bottom: 0px;
+        }
+
+        .para {
+            font-size: 16px;
+        }
+
+        .sub {
+            margin-left: 0px;
+        }
+
+        .footer-panel1 {
+            font-size: 20px;
+            line-height: 23.4px;
+            text-align: center;
+            display: inherit;
+            padding: 10px 30px;
+        }
+
+        .panel {
+            padding: 0px;
+        }
+
+        .mrq img {
+            width: 40%;
+        }
+
+        .connect h4 {
+            font-size: 15px;
+        }
+
+        footer .col-20 {
+            width: 100%;
+        }
+
+        .connect i {
+            margin-bottom: 10px;
+        }
+
+        .heading .btn {
+            margin: 20px 70px;
+        }
+
+        .image-containt {
+            padding: 10px;
+        }
+
+        footer .row {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+    }
+
+
+    @media (max-width:479px) {
+        .container {
+            width: 98%;
+            margin: 0 auto;
+        }
+
+        .row {
+
+            display: block;
+
+        }
+
+        header .col-60 {
+            width: 50%;
+            float: left;
+            display: none;
+        }
+
+        header .col-20 {
+            float: left;
+            width: 50%;
+        }
+
+        .main-menu {
+            display: none;
+        }
+
+        .icons-wrap a {
+            font-size: 13px;
+
+        }
+
+        .logo-wrap img {
+            width: 50px;
+        }
+
+        .slider-content h1 {
+            font-size: 12px;
+            line-height: 30px;
+            letter-spacing: 0.6px;
+        }
+
+        .slider-content p {
+            display: none;
+        }
+
+        .banner1 {
+            width: 100%;
+            height: 200px;
+            margin-left: 0px;
+        }
+
+        .banner2 {
+            height: 200px;
+            width: 100%;
+        }
+
+        .banner1 img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .banner2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            margin-top: 10px;
+        }
+
+        .heading h5 {
+            font-size: 21px;
+            line-height: 20px;
+            margin: 10px 75px;
+        }
+
+        .heading h2 {
+            text-align: center;
+        }
+
+        .btn {
+            line-height: 6px;
+        }
+
+        .heading h1 {
+            font-size: 18px;
+            margin-top: 5px;
+        }
+
+        section .col-251 {
+            width: 50%;
+        }
+
+        .image-banner {
+            width: 100%;
+        }
+
+        .signup {
+            padding: 0px;
+        }
+
+        .heading h3 {
+            font-size: 16px;
+            line-height: 0px;
+            margin-bottom: 0px;
+        }
+
+        .para {
+            font-size: 16px;
+        }
+
+        .sub {
+            margin-left: 0px;
+        }
+
+        .footer-panel1 {
+            font-size: 20px;
+            line-height: 23.4px;
+            text-align: center;
+            display: inherit;
+            padding: 10px 30px;
+        }
+
+        .panel {
+            padding: 0px;
+        }
+
+        .mrq img {
+            width: 40%;
+        }
+
+        .connect h4 {
+            font-size: 15px;
+        }
+
+        footer .col-20 {
+            width: 100%;
+        }
+
+        .connect i {
+            margin-bottom: 10px;
+        }
+
+        .heading .btn {
+            margin: 20px 70px;
+        }
+
+        .image-containt {
+            padding: 10px;
+        }
+
+        footer .row {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
